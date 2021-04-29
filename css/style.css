@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* css reset */
+*{margin: 0;padding: 0;}
+body, html{height: 100%;}
+a{ color : inherit; text-decoration: none;}
+ul,ol{list-style: none;}
+
+/* z-index
+
+*/
+
+/* color 
+
+*/
+
+/* 시작 시간 체크
+0429. 21시~
+*/
+
+
+#wrap{
+  width: 1170px;
+  margin : 0 auto;
+}
+
+/* header start */
+#header{
+  overflow : hidden;
+  height: 120px;
+  margin-bottom : 122px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #666;
+}
+#logo{
+  display : inline-block;
+  padding-top: 35px;
+}
+#logo h1{}
+#logo h1 a{}
+#logo h1 a img{}
+
+#gnb{
+  float : right;
+}
+#gnb ul{
+  width: 454px;
+  display : flex;
+  justify-content: space-between;
+}
+#gnb ul li{
+  flex : 0 0 auto;
+}
+#gnb ul li a{
+  font-size: 12px;
+  line-height: 120px;
+}
+/* header end */
+
+/* main_banner start */
+#main_banner{
+  background: rgb(255, 231, 186);
+  height: 666px;
+  width: 100%;
+}
+.mleft{
+  width: calc(100% - 571px);
+  float : left;
+  padding-top: 67px;
+}
+.mleft h2{
+  font-size: 60px;
+  margin-bottom: 55px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.mleft p{
+  font-size: 12px;
+  line-height: 30px;
+  margin-bottom: 47px;
+}
+.mleft a{
+  display : inline-block;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  background: #ffe600;
+}
+
+.mright{
+  width: 571px;
+  float : right;
+}
+.mright img{}
+/* main_banner end */
+
+/* container start */
+#container{}
+.work_showcase{}
+.work_showcase h2{}
+.work_showcase .wbtn{}
+.work_showcase .wbtn ul{}
+.work_showcase .wbtn ul li{}
+.work_showcase .wbtn ul li input{}
+.work_showcase .wbtn ul li label{}
+
+.wbtn select{}
+.wbtn select option{}
+
+.work_showcase .list{}
+.work_showcase a{}
+.work_showcase .partner{}
+
+.about_us{}
+
+.out_blog{}
+
+.contact_us{}
+
+/* container end */
+
+/* footer start */
+#footer{}
+/* footer end */
