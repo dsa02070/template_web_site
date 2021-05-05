@@ -59,6 +59,21 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
 }
 /* header end */
 
+/* common style */
+.maintitle{
+  font-size: 60px;
+  text-align: left;
+  margin-bottom: 68px;
+  color : #1e1e1e;
+  line-height: 1;
+}
+
+.subtitle{
+  font-size: 12px;
+  line-height: 30px;
+  margin-bottom: 47px;
+}
+
 /* main_banner start */
 #main_banner{
   width: 100%;
@@ -70,15 +85,11 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   padding-top: 67px;
 }
 .mleft h2{
-  font-size: 60px;
-  font-weight: bold;
   line-height: 80px;
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 .mleft p{
-  font-size: 12px;
-  line-height: 30px;
-  margin-bottom: 47px;
+  margin-bottom: 38px;
 }
 .mleft a{
   display : inline-block;
@@ -103,13 +114,6 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   overflow : hidden;
   text-align: center;
   background: #f1f1f1;
-}
-.work_showcase h2{
-  font-size: 60px;
-  text-align: left;
-  margin-bottom: 68px;
-  color : #1e1e1e;
-  line-height: 1;
 }
 
 .work_showcase input{
@@ -137,9 +141,11 @@ select.familySite{
   outline : none;
   display : inline-block;
   appearance : none;
-  padding : 10px 30px 10px 10px;
+  font-size: 12px;
+  padding : 5px 30px 5px 10px;
   background-image: url('../img/select_box_arrow.png');
   background-repeat: no-repeat;
+  background-size: 10%;
   background-position : right 10px top 50%;
 }
 
@@ -147,17 +153,11 @@ select.familySite{
   background-image: url('../img/select_box_arrow_focus.png');
 }
 
-.wbtn select option{
-  height: 18px;
-  font-size: 18px;
-  line-height: 18px;
-}
-
 .work_showcase .box_wrap{
   display : flex;
   justify-content: space-between;
   flex-wrap : wrap;
-  margin-top: 209px;
+  margin-top: 180px;
 }
 
 .work_showcase input:nth-of-type(2):checked ~ .box_wrap .box:nth-child(2n + 1){
@@ -178,6 +178,7 @@ select.familySite{
   height: 400px;
   text-align: center;
   margin: 20px;
+  margin-top: 0;
   transition : 0.2s;
   cursor : pointer;
 }
@@ -190,7 +191,6 @@ select.familySite{
 .work_showcase .box_wrap .box img{
   width: 350px;
   height: 350px;
-  margin-top: 20px;
   background: #000;
 }
 
@@ -232,15 +232,11 @@ select.familySite{
 .about_us{
   height: 893px;
 }
-.about_us h2{
-  font-size: 60px;
-  color : #1e1e1e;
-  line-height: 0.8;
-  margin-bottom: 70px;
+.about_us > h2{
+  margin-bottom: 61px;
 }
-.about_us p{
-  margin-bottom: 72px;
-  line-height: 30px;
+.about_us > p{
+  margin-bottom: 63px;
 }
 .about_us .aContent{
   display : flex;
@@ -294,14 +290,11 @@ select.familySite{
 .our_blog{
   height: 920px;
 }
-.our_blog h2{
-  font-size: 60px;
-  margin-bottom: 53px;
+.our_blog > h2{
+  margin-bottom: 59px;
 }
 .our_blog > p{
-  font-size: 12px;
-  line-height: 30px;
-  margin-bottom: 53px;
+  margin-bottom: 59px;
 }
 
 .obox_wrap{
@@ -334,9 +327,10 @@ select.familySite{
 
 .our_blog .obox h4{
   font-size: 15px;
+  line-height: 1;
   padding-top: 32px;
   padding-left: 25px;
-  margin-bottom: 34px;
+  margin-bottom: 25px;
 }
 .our_blog .obox p{
   font-size: 12px;
@@ -348,14 +342,9 @@ select.familySite{
   height: 1028px;
 }
 .contact_us h2{
-  font-size: 60px;
-  line-height: 1;
-  color : #1e1e1e;
   margin-bottom: 63px;
 }
 .contact_us > p{
-  font-size: 12px;
-  line-height: 30px;
   margin-bottom: 62px;
 }
 
