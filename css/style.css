@@ -6,20 +6,14 @@ body, html{height: 100%;}
 a{ color : inherit; text-decoration: none;}
 ul,ol{list-style: none;}
 h1,h2,h3,h4,h5,h6{line-height: 1;}
-/* z-index
 
+/* z-index
+.about_us .aContent .abox .textbox : 100
 */
 
-/* color 
+/* main color 
 #ffe600
 */
-
-/* 시작 시간 체크
-0429. 21시~
-0430. 21시 04분~
-0504. ...
-*/
-
 
 #wrap{
   width: 1170px;
@@ -38,10 +32,8 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   display : inline-block;
   padding-top: 35px;
 }
-#logo h1{}
-#logo h1 a{}
-#logo h1 a img{}
 
+/* #gnb */
 #gnb{
   float : right;
 }
@@ -67,7 +59,6 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   color : #1e1e1e;
   line-height: 1;
 }
-
 .subtitle{
   font-size: 12px;
   line-height: 30px;
@@ -100,22 +91,18 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   text-align: center;
   background: #ffe600;
 }
-
 .mright{
   width: 571px;
   float : right;
 }
-.mright img{}
 /* main_banner end */
 
 /* container start */
-#container{}
+/* work_showcase */
 .work_showcase{
   overflow : hidden;
   text-align: center;
-  background: #f1f1f1;
 }
-
 .work_showcase input{
   display : none;
 }
@@ -131,11 +118,9 @@ h1,h2,h3,h4,h5,h6{line-height: 1;}
   cursor : pointer;
   transition : 0.2s;
 }
-
 .work_showcase input + label:hover{
   background: #ffe600;
 }
-
 select.familySite{
   float : right;
   outline : none;
@@ -148,52 +133,44 @@ select.familySite{
   background-size: 10%;
   background-position : right 10px top 50%;
 }
-
 .wbtn select:focus{
   background-image: url('../img/select_box_arrow_focus.png');
 }
 
+/* box_wrap */
 .work_showcase .box_wrap{
   display : flex;
   justify-content: space-between;
   flex-wrap : wrap;
   margin-top: 180px;
 }
-
 .work_showcase input:nth-of-type(2):checked ~ .box_wrap .box:nth-child(2n + 1){
   display : none;
 }
-
 .work_showcase input:nth-of-type(3):checked ~ .box_wrap .box:nth-child(3n + 1){
   display : none;
 }
-
 .work_showcase input:nth-of-type(4):checked ~ .box_wrap .box:nth-child(3n + 2){
   display : none;
 }
-
 .work_showcase .box_wrap .box{
   background: #f1f1f1;
   width: calc(370px - 20px);
-  height: 400px;
+  height: 420px;
   text-align: center;
   margin: 20px;
   margin-top: 0;
   transition : 0.2s;
   cursor : pointer;
 }
-
 .work_showcase .box_wrap .box:hover img{
   opacity: 0.8;
 }
-
-
 .work_showcase .box_wrap .box img{
   width: 350px;
   height: 350px;
   background: #000;
 }
-
 .work_showcase .box_wrap .box .ltext{
   margin-top: 10px;
 }
@@ -214,21 +191,19 @@ select.familySite{
   margin-bottom: 182px;
   background: #ffe600;
 }
+
+/* partner */
 .work_showcase .partner{
   display : flex;
-  justify-content: space-between;
-}
-.work_showcase .partner .plist{
-  width : calc(100% / 6);
-  margin-right: 10px;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 250px;
-  height: 100px;
-  background: #000;
 }
 .work_showcase .partner .plist:last-child{
   margin-right: 0;
 }
 
+/* about us */
 .about_us{
   height: 893px;
 }
@@ -248,7 +223,6 @@ select.familySite{
   height: 420px;
   background: #f1f1f1;
 }
-
 .about_us .aContent .abox .textbox{
   width: 250px;
   height: 70px;
@@ -265,12 +239,10 @@ select.familySite{
 .about_us .aContent .abox .textbox p{
   font-size: 12px;
 }
-
 .about_us .aContent .abox img{
   position : absolute;
   top: 0;
 }
-
 .about_us .aright{
   width: 370px;
   padding-top: 110px;
@@ -285,8 +257,8 @@ select.familySite{
   font-size: 12px;
   margin-bottom: 26px;
 }
-.about_us .aright a{}
 
+/* our blog */
 .our_blog{
   height: 920px;
 }
@@ -296,7 +268,6 @@ select.familySite{
 .our_blog > p{
   margin-bottom: 59px;
 }
-
 .obox_wrap{
   display : flex;
   justify-content: space-between;
@@ -316,15 +287,12 @@ select.familySite{
   background: #ffe600;
   text-transform: uppercase;
 }
-
 .our_blog .obox:nth-of-type(2) .bg{
   background: #f1f1f1;
 }
-
 .our_blog .obox:nth-of-type(3) .bg{
   background: #f1f1f1;
 }
-
 .our_blog .obox h4{
   font-size: 15px;
   line-height: 1;
@@ -338,6 +306,7 @@ select.familySite{
   line-height: 30px;
 }
 
+/* contact_us */
 .contact_us{
   height: 1028px;
 }
@@ -347,11 +316,9 @@ select.familySite{
 .contact_us > p{
   margin-bottom: 62px;
 }
-
 .ctop{
   overflow : hidden;
 }
-
 .contact_us .cleft{
   float : left;
   width: 50%;
@@ -362,9 +329,7 @@ select.familySite{
   padding-top: 34px;
   font-size: 30px;
 }
-
 .contact_us .cleft form input{
-  display : block;
   height: 46px;
   width: 400px;
   font-size: 12px;
@@ -375,15 +340,19 @@ select.familySite{
   margin-bottom: 9px;
   padding-left: 10px;
 }
-
 input::placeholder{
   color : #666;
 }
-
-.contact_us .cleft form input:nth-of-type(3){
+textarea{
+  border : none;
+  outline : none;
+  width: 400px;
   height: 135px;
+  margin-left: 18px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background: #f1f1f1;
 }
-
 .contact_us .cleft form input.cbtn{
   width: 170px;
   height: 50px;
@@ -392,18 +361,17 @@ input::placeholder{
   cursor : pointer;
 }
 
+/* cright */
 .cright{
   float : right;
   width: 571px;
   height: 471px;
   background: #f1f1f1;
 }
-
 .cbottom{
   width: 100%;
   height: 332px;
 }
-.cbottom .contact{}
 .cbottom .contact ul{
   display: flex;
   justify-content: space-between;
@@ -411,22 +379,17 @@ input::placeholder{
   margin : 68px auto;
   text-align: center;
 }
-.cbottom .contact ul li{}
-.cbottom .contact ul li img{}
 .cbottom .contact ul li p{
   font-size: 12px;
   margin-top: 26px;
   line-height: 20px;
 }
-
 .sns{
   display: flex;
   justify-content: space-between;
   width: 204px;
   margin : 0 auto;
 }
-.sns img{}
-
 /* container end */
 
 /* footer start */
@@ -436,7 +399,6 @@ input::placeholder{
   box-sizing: border-box;
   background: #1e1e1e;
 }
-
 #footer .finner{
   overflow : hidden;
   width: 1170px;
@@ -472,5 +434,4 @@ input::placeholder{
   margin-left: 10px;
   transform : rotate(45deg)
 }
-
 /* footer end */
